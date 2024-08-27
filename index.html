@@ -11,7 +11,7 @@
     <body style="background-color:black;">
         <script type="module">
             import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser/dist/phaser.esm.min.js';
-            import * as WebFontLoader from 'https://cdn.jsdelivr.net/npm/phaser3-rex-plugins/dist/rexwebfontloaderplugin.min.js';
+            // import * as WebFontLoader from 'https://cdn.jsdelivr.net/npm/phaser3-rex-plugins/dist/rexwebfontloaderplugin.min.js';
 
             class Constants
             {
@@ -672,6 +672,7 @@
                     this.load.audio('scroll', ['https://codehs.com/uploads/9b7ea4ff87a49c1f612d0c6dba26dffb?.ogg']);
                     this.load.audio('cancel', ['https://codehs.com/uploads/46380b313aec5e65c7697083d1740198?.ogg']);
 
+                    /*
                     WebFontLoader.call(this.load,
                     {
                         custom:
@@ -681,6 +682,7 @@
                             urls: ['https://codehs.com/uploads/114e38b8f4df96d686aef5587af5fa74?.css', 'https://codehs.com/uploads/f7310aafa9b8068226cc005d83628d20?.css', 'https://codehs.com/uploads/e694eee78c275ce72140a77ea8ccc498?.css', 'https://codehs.com/uploads/e206bbb9935f0c760e09c2b6e88c47c7?.css']
                         }
                     });
+                    */
                 }
 
                 switchState(target, key, soundExclusion = [])
